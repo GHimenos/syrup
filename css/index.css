@@ -1,0 +1,557 @@
+@import url('/css/fonts.css');
+@import url('/css/markup.css');
+
+.bw-headerImg {
+    position: absolute;
+    width: 58rem;
+    height: 58rem;
+    right: -200px;
+    top: -4.25rem;
+}
+
+.b-logo {
+    padding: 2.19rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bw-logo {
+    max-width: 45%;
+}
+
+.freeConsultationButton {
+    display: flex;
+    max-width: 45%;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 1.25rem 2.125rem;
+    border-radius: .75rem;
+    border: 2px solid #FF0054;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    max-height: 3.5rem;
+}
+
+.bw-slogan {
+    display: flex;
+    flex-flow: column;
+    margin: 9.625rem 0 0 0;
+}
+
+.addingText {
+    color: #FF0054;
+    font-family: Rubik;
+    font-size: 64.809px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102.5%;
+    text-transform: uppercase;
+}
+
+.tastesText {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 103.694px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 102.5%;
+    text-transform: uppercase;
+
+}
+
+.andText {
+    color: transparent;
+    -webkit-text-stroke: .0625rem #FFFFFF;
+    font-family: Rubik;
+    font-size: 47.93px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.5%;
+    text-transform: uppercase;
+
+}
+
+.bw-colors {
+    height: 7.5rem;
+    width: 31.25rem;
+    position: relative;
+}
+
+.uprText {
+    position: absolute;
+    z-index: 1000;
+    color: transparent;
+    text-shadow: 0px .25rem .25rem rgba(0, 0, 0, 0.25);
+    font-family: Rubik;
+    font-size: 7.2909rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 102.5%;
+    text-transform: uppercase;
+    -webkit-text-stroke: .1363rem #FF0054;
+}
+
+.midText {
+    position: absolute;
+    top: .1875rem;
+    left: .1875rem;
+    z-index: 999;
+    color: transparent;
+    font-family: Rubik;
+    font-size: 7.2909rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 102.5%;
+    text-transform: uppercase;
+    -webkit-text-stroke: .0625rem #FF0054;
+    opacity: 0.4;
+}
+
+.dwnText {
+    position: absolute;
+    top: .0625rem;
+    z-index: 998;
+    color: #FF0054;
+    text-shadow: 0px .25rem .25rem rgba(0, 0, 0, 0.25);
+    font-family: Rubik;
+    font-size: 7.2909rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 102.5%;
+    text-transform: uppercase;
+    -webkit-text-stroke: .1363rem #FF0054;
+    opacity: 0.1;
+
+}
+
+.bw-services {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 9.375rem 0 0 0;
+    gap: 1.25rem;
+}
+
+.bw-servicesBlock {
+    width: 49%;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+
+}
+
+.b-service {
+    width: 48%;
+    padding: 2.375rem 0 2.0625rem 0;
+    outline: .125rem solid #FF0054;
+    border-radius: .75rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.bw-serviceIco {
+    width: 30%;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.service-desc {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.smallH1 {
+    width: max-content;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.h1Marked {
+    color: #FF0054;
+}
+
+.bw-businessTypes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.businesType {
+    width: 49%;
+    display: flex;
+    flex-flow: column;
+    border-radius: 12px;
+    border: 1px solid #FF0054;
+    padding: 2.5rem;
+    background: linear-gradient(113deg, #FF0054 -164.82%, rgba(255, 0, 84, 0.00) 52.68%);
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+}
+
+.bw-businesType_txtImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.businesType__p {
+    width: 18.125rem;
+}
+
+.businesType__Img {
+    width: 100%;
+}
+
+.bw-roadmap {
+    width: 100%;
+    height: 18.9375rem;
+    opacity: 0.7;
+    background: linear-gradient(360deg, rgba(250, 2, 84, 0.00) 0%, rgba(178, 0, 59, 0.60) 100%);
+    overflow: hidden;
+}
+
+.bw-roadmapItems {
+    display: flex;
+    width: 75rem;
+    height: 18.9375rem;
+    margin: 0 auto;
+}
+
+.bw-roadmapItem {
+    width: 20%;
+    height: 18.9375rem;
+    position: relative;
+    padding: 0 0 0 0;
+
+}
+
+.roadmap1 {
+    position: absolute;
+    top: 0;
+    left: -2.4rem;
+    z-index: 99;
+    width: 16.85rem;
+    height: 18.9375rem;
+    transform: skew(15deg);
+    opacity: .5;
+    background: linear-gradient(228deg, #DF0A51 -36.99%, rgba(223, 10, 81, 0.00) 45%);
+}
+
+
+.rmapTextItem {
+    position: absolute;
+    top: 0;
+    left: 2.8rem;
+    z-index: 100;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: white;
+
+}
+
+.rmapTextItem__num {
+    margin: 3.125rem 0 0 0;
+    width: fit-content;
+    color: transparent;
+    -webkit-text-stroke: .0625rem #FFFFFF;
+    font-family: Rubik;
+    font-size: 4.125rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.rmapTextItem__h {
+    width: 65%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5625rem 0 0 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.rmapTextItem__text {
+    margin: .9375rem 0 0 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.bw-quality {
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+}
+
+.quality_p {
+    width: 100%;
+    max-width: 100%;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.bw-qualityKPI {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qualityKPI__h {
+    color: #FF0054;
+    font-family: Rubik;
+    font-size: 2.1875rem;
+    font-weight: 700;
+}
+
+.bw-quality_img {
+    position: absolute;
+    right: -15.625rem;
+    top: -55%;
+    width: 85%;
+    z-index: 900;
+}
+
+.bw-management {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bw-employee {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+}
+
+.imgCorrectionRomTMP {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.bw-employeeBg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    background: center/100% no-repeat url(/img/employeeImgBg.svg);
+}
+
+.bw-epmployeeImg {
+    width: 77.5%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.employee_name {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.employee_pos {
+    color: #8489B7;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.employee_exp {
+    text-align: center;
+}
+
+.bw-infoblockHR {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoitemHR {
+    display: flex;
+    width: 33%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.25rem 6.5625rem;
+    border-radius: 12px;
+    border: 1px solid #FF0054;
+    background: linear-gradient(351deg, #FF0054 -418.88%, rgba(255, 0, 84, 0.00) 73.68%);
+}
+
+.infoitemHR_h {
+    width: max-content;
+    font-size: 2.75rem;
+    font-weight: 550;
+}
+
+.infoitemHR_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TODO перенести в markUp */
+
+.bw-stack {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bw-column {
+    display: flex;
+    flex-flow: column;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bw-logoBlock {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.b-stackOption {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 17.009px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.bw-stackLogo {
+    display: flex;
+    width: 70%
+}
+
+
+.stackOptionName {
+    color: #717592;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bw-logoblock__noHeading {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    gap: 3.3125rem;
+}
+
+.bw-writeUs_img {
+    position: absolute;
+    left: -15%;
+    top: -7%;
+    width: 60%;
+    z-index: 900;
+}
+
+.contactMain {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.25rem;
+    padding: 4.375rem 0;
+}
+
+.contactMain-input,
+.contactMain-input:focus-visible {
+    padding: 1.5rem 2rem;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: .75rem;
+    outline: none;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contactMain-input::placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.contactMain-input:focus-visible::placeholder {
+    color: transparent;
+}
+
+.contactMain-submit {
+    padding: 1.5rem 2rem;
+    background: #FF0054;
+    border: none;
+    border-radius: .75rem;
+    outline: none;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.__noResize {
+    resize: none;
+}
+
+.footerLogo {
+    width: 9.625rem;
+}

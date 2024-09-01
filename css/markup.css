@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212439;
+    display: flex;
+    flex-flow: column;
+    gap: 5rem
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    gap: 5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 2.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p,
+li {
+    width: 100%;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    padding: .5rem 0 .6rem 3rem;
+    background: url(/img/icons/li_marker.svg) no-repeat left top 0.6rem;
+    line-height: 150%;
+}
+
+.colContainer {
+    width: 75rem;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    gap: 20px;
+}
+
+.rowContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.__dark {
+    background: rgba(30, 31, 49, 1);
+}
+
+.splitter {
+    display: block;
+    width: 100%;
+    border: 1px solid #4D4164;
+    opacity: 0.6;
+}
+
+.__vertical {
+    margin: 0;
+    height: 30rem;
+    width: 0;
+    border: 1px solid #3F4361;
+}

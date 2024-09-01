@@ -1,0 +1,225 @@
+@media (min-width: 320px) and (max-width: 526px) {
+    body {
+        padding: 0 0.75rem;
+        gap: 3rem;
+    }
+
+    main {
+        gap: 3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .b-logo {
+        padding: 0.75rem 0 0 0;
+    }
+
+    .freeConsultationButton {
+        padding: 1.25rem 1.8rem;
+    }
+
+    .bw-headerImg,
+    .bw-quality_img,
+    .bw-writeUs_img {
+        display: none;
+    }
+
+    .bw-colors {
+        width: 100%;
+    }
+
+    .tastesText {
+        font-size: 5rem;
+    }
+
+    .uprText,
+    .midText,
+    .dwnText {
+        font-size: 4.5rem;
+    }
+
+    .bw-slogan,
+    .bw-services {
+        margin: 1.8rem 0 0 0;
+    }
+
+    .bw-servicesBlock {
+        width: 100%;
+    }
+
+    .bw-businesType_txtImg {
+        flex-flow: column-reverse;
+        gap: 1rem;
+    }
+
+    .businesType {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .service-h,
+    .businesTypeTitle {
+        min-height: 2.75rem;
+
+    }
+
+    .businesType__p {
+        width: 100%;
+    }
+
+    .bw-quality {
+        width: 100%;
+    }
+
+    .bw-qualityKPI {
+        flex-flow: column;
+    }
+
+    .bw-roadmap {
+        overflow-x: scroll;
+    }
+
+    .bw-stack {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .bw-column {
+        width: 100%;
+    }
+
+    .bw-column.__noMobile {
+        display: none;
+    }
+
+    .splitter.__vertical {
+        display: none;
+    }
+
+    .bw-management {
+        flex-flow: column;
+    }
+
+    .bw-employee {
+        width: 100%;
+    }
+
+    .bw-infoblockHR {
+        flex-flow: column;
+    }
+
+    .infoitemHR {
+        width: 100%;
+    }
+
+    .contactMain {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 527px) and (max-width: 1024px) {
+    body {
+        padding: 0 0.75rem;
+    }
+
+    .b-logo {
+        padding: 0.75rem 0 0 0;
+    }
+
+    .bw-headerImg,
+    .bw-quality_img,
+    .bw-writeUs_img {
+        display: none;
+    }
+
+    .bw-slogan {
+        margin: 4rem 0 0 0;
+    }
+
+    .bw-colors {
+        width: 100%;
+    }
+
+    .uprText,
+    .midText,
+    .dwnText {
+        font-size: 7.1rem;
+    }
+
+    .bw-services {
+        margin: 4rem 0 0 0;
+    }
+
+    .bw-servicesBlock {
+        width: 100%;
+    }
+
+    .bw-businesType_txtImg {
+        flex-flow: column-reverse;
+        gap: 1rem;
+    }
+
+    .businesType {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .businesTypeTitle {
+        min-height: 2.75rem;
+    }
+
+    .businesType__p {
+        width: 100%;
+    }
+
+    .bw-quality {
+        width: 100%;
+    }
+
+    .bw-roadmap {
+        overflow-x: scroll;
+    }
+
+    .bw-stack {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .bw-column {
+        width: 100%;
+    }
+
+    .bw-column.__noMobile {
+        display: none;
+    }
+
+    .splitter.__vertical {
+        display: none;
+    }
+
+    .bw-management {
+        flex-flow: column;
+    }
+
+    .bw-employee {
+        width: 100%;
+    }
+
+    .bw-infoblockHR {
+        flex-flow: column;
+    }
+
+    .infoitemHR {
+        width: 100%;
+    }
+
+    .contactMain {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
