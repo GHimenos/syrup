@@ -24,10 +24,10 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
     //Recipients
-    $mail->setFrom('orders@syrup.team', 'Order from a Syrup');
+    $mail->setFrom('orders@syrup.team');
     $mail->addAddress('romanenko83@gmail.com');     //Add a recipient
     $mail->addAddress('syrup.team1@gmail.com');     //Name is optional
-    $body = '<p>Email: ' . $_POST['email'] . '</p>' . '<p>Имя пользователя: ' . $_POST['name'] . '</p>' . '<p>Комментарий: ' . $_POST['comment'] . '</p>';
+    $body = '<p>Email: ' . $_POST['email'] . '</p>' . '<p>Имя Пользователя: ' . $_POST['name'] . '</p>' . '<p> Комментарий : ' . $_POST['comment'] . '</p>';
 
 
     //Content
