@@ -20,13 +20,14 @@ try {
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'orders@syrup.team';                    //SMTP username
     $mail->Password   = '48>Af2TZkHr=-T+';                      //SMTP password
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = 587;                                    //TCP port to connect to; 
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
     //Recipients
     $mail->setFrom('orders@syrup.team', 'Order from a Syrup');
     $mail->addAddress('romanenko83@gmail.com');     //Add a recipient
     $mail->addAddress('syrup.team1@gmail.com');     //Name is optional
-    $body = '<p>Email: ' . $_POST['email'] . '</p>' . '<p>User comment: ' . $_POST['name'] . '</p>' . '<p>User comment: ' . $_POST['comment'] . '</p>';
+    $body = '<p>Email: ' . $_POST['email'] . '</p>' . '<p>Имя пользователя: ' . $_POST['name'] . '</p>' . '<p>Комментарий: ' . $_POST['comment'] . '</p>';
 
 
     //Content
